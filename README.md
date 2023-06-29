@@ -12,7 +12,7 @@ The purpose of this analysis is to assess the performance of various prediction 
 
 Results:
 
-<img align="right" width="400" height="270" src="Plots/baseline_svm_4x100_plot.png">
+<img align="right" width="350" height="270" src="Plots/baseline_svm_4x100_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
@@ -33,7 +33,7 @@ Results:
 
 Results:
 
-<img align="right" width="400" height="270" src="Plots/baseline_svm_4x50_plot.png">
+<img align="right" width="350" height="270" src="Plots/baseline_svm_4x50_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
@@ -56,7 +56,7 @@ Results:
 
 Results:
 
-<img align="right" width="400" height="270" src="Plots/baseline_svm_2018_plot.png">
+<img align="right" width="350" height="270" src="Plots/baseline_svm_2018_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
