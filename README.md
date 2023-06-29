@@ -5,15 +5,14 @@ The purpose of this analysis is to assess the performance of various prediction 
 
 
 ## **Comparing different pre-processing techniques with SVM classifier**
-<br>
+
 
 ### Step 1: The baseline model is setup with training data configured as:
 * SMA Short window = 4, SMA Long window = 100
 
-
 Results:
 
-<img align="left" width="435" height="250" src="Plots/baseline_svm_4x100_plot.png">
+<img align="left" width="400" height="270" src="Plots/baseline_svm_4x100_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
@@ -32,10 +31,9 @@ Results:
 ### Step 2: The baseline model's features have been re-configured as:
 * SMA Short window = 4, SMA Long window = 50
 
-
 Results:
 
-<img align="left" width="435" height="250" src="Plots/baseline_svm_4x50_plot.png">
+<img align="left" width="400" height="270" src="Plots/baseline_svm_4x50_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
@@ -56,10 +54,9 @@ Results:
 * Training Data Begining: 2018
 * Training Data End: Training Data Beginning + Offset of 3months
 
-
 Results:
 
-<img align="left" width="435" height="250" src="Plots/baseline_svm_2018_plot.png">
+<img align="left" width="400" height="270"src="Plots/baseline_svm_2018_plot.png">
 
 
 |  | precision | recall  | f1-score | support |
@@ -71,9 +68,7 @@ Results:
 | weighted avg | 0.47 | 0.55 | 0.39 | 1721 |
 |  |  |  |  |  | 
 
-<br>
-<br>
-<br>
+
 
 ## **Outcome**
 
@@ -84,7 +79,7 @@ I established that tighter windows returned less profits as it does not reflect 
 #### **What impact resulted from increasing or decreasing the training window?**
 This will depend on the time period chosen, however I did not want to choose the best case scenario of 2022 when the market was rallying just to see if there would be any improvement when looking only at 2018 perdiod.
 
-<br>
+
 
 ## **Evaluation Report**
 -----
